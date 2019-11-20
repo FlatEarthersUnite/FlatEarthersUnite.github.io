@@ -1,0 +1,82 @@
+body {max-width: inherit; }
+/*"fixed" position in top left corner"*/
+.logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    /* responsive image W3schools start*/
+    max-width: 100%;
+    height: auto;
+    /* W3schools end*/
+}
+/*W3schools start [fixed top menu]*/
+/* navigation bar basics*/
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky; /*changed position to sticky so the fixed top menu would only become fixed once past the logo*/
+    top: 0; /*still at top of page but below logo b/c the logo is in the header*/
+    width: 100%;
+  }
+  
+ /* "text"/links styling */ 
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* background re. mouse */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+/* main content ?? */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay ??*/
+  }
+
+/* W3schools start [responsive navbar]*/
+
+/* Hide the link that should open and close the navbar on small screens ??*/
+  .navbar .icon {
+      display: none;
+  }
+
+/* W3schools end all */
+
+.Page1h1 { min-width:inherit;
+  background-color: khaki;
+  height: 400px;
+  }
+
+#p1b1 {
+  min-width: inherit;
+  background-color:lightcyan;
+  height: 400px;
+}  
+.b1 {min-width: 40%;
+  background-color: lightcoral;
+  float: left;
+  height: 400px;
+  margin-left: 8%;
+  margin-top: 5%;
+
+}
+.b2 {min-width: 40%;
+  background-color: lightblue;
+  float: right;
+  height: 400px;
+  margin-right: 8%;
+  margin-top: 5%;
+}
+.Page1h2 {
+  min-width: inherit;
+  background-color: lavenderblush;
+  height: 600px;
+  text-align: center;
+}  
