@@ -2,9 +2,10 @@ body {max-width: inherit;
   background: linear-gradient(to top, #000066 0%, #ffffff 100%); }
 /*"fixed" position in top left corner"*/
 
-{
+/*{
   box-sizing: border-box;
 }
+*/
 
 
 .logo {
