@@ -1,7 +1,4 @@
-function liesbutton()
-{document.getElementById('y');}
-
-function truthbutton()
+function button()
 {document.getElementById('x');}
 
 
