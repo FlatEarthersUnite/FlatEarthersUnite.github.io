@@ -1,5 +1,5 @@
 function button()
-{document.getElementById('x')};
+{document.getElementById('x');}
 
 
 
