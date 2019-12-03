@@ -22,7 +22,6 @@ font-family: Arial, Helvetica, sans-serif;
 /* navigation bar basics BY Abhinay Arora*/ 
 .navbar {
   overflow: hidden;
-  position: fixed;
   background-color: #333; 
 }
 
@@ -39,7 +38,15 @@ font-family: Arial, Helvetica, sans-serif;
   float: left;
   overflow: hidden;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
+.sticky + .content {
+  padding-top: 60px;
+}
 .subnav .subnavbtn {
   font-size: 16px;  
   border: none;
