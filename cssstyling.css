@@ -19,7 +19,7 @@ font-family: Arial, Helvetica, sans-serif;
     /* W3schools end*/
 }
 /*W3schools start [fixed top menu]*/
-/* navigation bar basics BY Abhinay Arora*/
+/* navigation bar basics BY Abhinay Arora*/ 
 .navbar {
   overflow: hidden;
   background-color: #333; 
@@ -33,7 +33,7 @@ font-family: Arial, Helvetica, sans-serif;
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/* Subnavbar for multiple pages */
 .subnav {
   float: left;
   overflow: hidden;
@@ -77,7 +77,7 @@ font-family: Arial, Helvetica, sans-serif;
 .subnav:hover .subnav-content {
 	display: block;
 }
-  }
+
   
 /* main content ?? */
   .main {
