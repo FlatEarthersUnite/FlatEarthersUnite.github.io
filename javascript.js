@@ -1,8 +1,8 @@
 function liesbutton()
-{document.getElementById('y').src="Globe.svg";}
+{document.getElementById('y').src='Globe.svg';}
 
 function truthbutton()
-{document.getElementById('x').src="Logo.svg";}
+{document.getElementById('x').src='Logo.svg';}
 
 
 
