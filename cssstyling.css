@@ -19,6 +19,7 @@ font-family: Arial, Helvetica, sans-serif;
     /* responsive image W3schools start*/
     max-width: 100%;
     height: auto;
+    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
     /* W3schools end*/
 }
 /*W3schools start [fixed top menu]*/
