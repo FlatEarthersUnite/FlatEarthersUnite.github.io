@@ -1,3 +1,4 @@
+<!-- Date:2019-12-04-->
 <!DOCTYPE html>
 <html lang = "en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,8 +20,8 @@
 
 <body>
 
-<!--W3schools start [fixed top menu] : By Abhinay Arora-->
-<div class="navbar" id = "stickynav">
+<!--W3schools start Sticky Sub navbar with subnavigation menu : By Abhinay Arora-->
+<div class="navbar" id = "stickynav">         
   <a href="#home">Home</a>
   <div class="subnav">
     <button class="subnavbtn">Page2 <i class="fa fa-caret-down"></i></button>
@@ -33,7 +34,7 @@
     <button class="subnavbtn">Page3 <i class="fa fa-caret-down"></i></button>
     <div class="subnav-content">
       <a href="#Part1">Part1</a>
-      <a href="mypart">mypart</a>
+      <a href="Part2">Part2</a>
     </div>
   </div> 
   <a href="#contact">Contact</a>
@@ -48,8 +49,6 @@
     <button onclick="document.getElementById('x').src='FlatEarth.svg'">Truth</button>
 </p>
 
-
-
 <h2 class="Page1h2"> 
 
 <div class="b1">
@@ -60,7 +59,8 @@
 </div>
 </h2>
 <script>
-  window.onscroll = function() {myFunction()};
+// sticky navbar by Abhinay Arora 
+window.onscroll = function() {myFunction()};
   
   var navbar = document.getElementById("stickynav");
   var sticky = navbar.offsetTop;
