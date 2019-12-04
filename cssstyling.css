@@ -131,4 +131,26 @@ font-family: Arial, Helvetica, sans-serif;
   height: 600px;
   text-align: center;
 }  
+
+.p4b1 {min-width: 40%;
+  background-color: lightcoral;
+  float: left;
+  height: 400px;
+  margin-left: 8%;
+  margin-top: 5%;
+
+}
+.p4b2 {min-width: 40%;
+  background-color: lightblue;
+  float: right;
+  height: 400px;
+  margin-right: 8%;
+  margin-top: 5%;
+}
+.Page4h2 {
+  min-width: inherit;
+  background-color: lavenderblush;
+  height: 600px;
+  text-align: center;
+}  
 /*-- End of Framework - Ashley Dcosta */
