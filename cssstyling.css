@@ -103,6 +103,9 @@ font-family: Arial, Helvetica, sans-serif;
 	max-width: 100%;
 	height: auto;
 /*W3schools end*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
 }
 
 /* W3schools end all */
