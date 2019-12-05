@@ -175,7 +175,7 @@ font-family: Arial, Helvetica, sans-serif;
   height: 600px;
   text-align: center;
 }  
-/** PAGE 4 BOXES **//
+/** PAGE 4 BOXES **/
 .Page4Box1 { min-width:inherit;
   background-color: blue;
   height: 400px;
@@ -203,13 +203,13 @@ font-family: Arial, Helvetica, sans-serif;
   height: 600px;
   text-align: center;
 }
-  .Page4Box4.1 {width: 40%;
+  .Page4Box4-1 {width: 40%;
   float: left;
   margin-left: 5%;
   text-align: justify;
 
 }
-.Page4Box4.2 {float: right;;
+.Page4Box4-2 {float: right;;
   width: 40%;
   text-align: justify;
   height: 400px;
@@ -218,10 +218,10 @@ font-family: Arial, Helvetica, sans-serif;
   
 /*-- End of Framework - Ashley Dcosta */
 
-/*
-.Page5h1 { min-width:inherit;
-  
-  height: 300px;
+
+.Page5Box1 { min-width:200px;
+  max-width: inherit;
+  max-height: 300px;
   margin-top: 5%;
   margin-left:5%;
   margin-right:5%;
@@ -229,7 +229,7 @@ font-family: Arial, Helvetica, sans-serif;
   text-align:center;
 
   }
-#p5b2 {min-width: 40%;
+.Page5Box2 {min-width: 40%;
   height: 300px;
   margin-left: 8%;
   margin-right: 8%;
@@ -238,39 +238,33 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;  
 }
-.Page5h2 {
-  min-width:inherit;
-  height: 200px;
-  text-align:center;
-  font-size: 50px;
-  font-weight: bolder;
-  margin-top: 10px;}
 
-  .p5b1 {width: 40%;
+.Page5Box3 {
+  min-width: inherit;
+  max-width: inherit;
+  height: 600px;
+
+}  
+.Page5Box3-1 {min-width:5%;
+  max-width: 600px;
     float: left;
     margin-left: 5%;
-    text-align: justify;
+    text-align: left;
 
 }
-.p5b2 {float: right;;
-  width: 40%;
-  text-align: justify;
-  
-  
+.Page5Box3-2 {float: right;
+  min-width:100px;
+  max-width:600px;
+  text-align:left; 
   height: 400px;
   margin-right:5%;
-;
+
 }
-.Page5h3 {
-  min-width: inherit;
-  
-  height: 600px;
-  text-align: center;
-}  
 
 
 
-.Page6h1 { min-width:inherit;
+
+.Page6Box1 { min-width:inherit;
   
   height: 300px;
   margin-top: 5%;
@@ -279,23 +273,30 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   text-align:left;
   }
-#p6b1 {min-width: 40%;
+.Page6Box2 {min-width: 40%;
     height: 300px;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 5%;
     text-align: center;
     font-size: 20px;}
-.Page6h2 {
-    min-width:inherit;
-    height: 200px;
-    text-align:left;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-top: 10px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;}
-*/
+.Page6Box3{
+  height: 600px;
+}
+.Page6Box3-1 {min-width:inherit;
+  max-width: 800px;
+  height: 200px;
+  text-align:left;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  float: left;}
+
+.Page6Box3-2 {float:right;
+margin-right: 100px;}
+
         
 .Page2Box1{min-width: 40%;
     height: 300px;
