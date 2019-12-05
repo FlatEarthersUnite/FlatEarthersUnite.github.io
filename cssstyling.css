@@ -152,13 +152,13 @@ font-family: Arial, Helvetica, sans-serif;
   height: 600px;
   text-align: center;
 }  
-/** p4 
-.Page4h1 { min-width:inherit;
+/** PAGE 4 BOXES **//
+.Page4Box1 { min-width:inherit;
   background-color: blue;
   height: 400px;
   margin-top: 0px;
   }
-#p4b1 {min-width: 40%;
+.Page4Box2 {min-width: 40%;
   height: 400px;
   margin-left: 8%;
   margin-right: 8%;
@@ -168,35 +168,31 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;  
 }
-.Page4h2 {
+.Page4Box3 {
   min-width:inherit;
   height: 200px;
   text-align:center;
   font-size: 50px;
   font-weight: bolder;
   margin-top: 10px;}
-
-  .p4b1 {width: 40%;
-    float: left;
-    margin-left: 5%;
-    text-align: justify;
-
-}
-.p4b2 {float: right;;
-  width: 40%;
-  text-align: justify;
-  
-  
-  height: 400px;
-  margin-right:5%;
-;
-}
-.Page4h3 {
+.Page4Box4 {
   min-width: inherit;
-  
   height: 600px;
   text-align: center;
-}  
+}
+  .Page4Box4.1 {width: 40%;
+  float: left;
+  margin-left: 5%;
+  text-align: justify;
+
+}
+.Page4Box4.2 {float: right;;
+  width: 40%;
+  text-align: justify;
+  height: 400px;
+  margin-right:5%;
+}
+  
 /*-- End of Framework - Ashley Dcosta */
 
 /*
@@ -209,7 +205,7 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   text-align:center;
   }
-#p5b1 {min-width: 40%;
+#p5b2 {min-width: 40%;
   height: 300px;
   margin-left: 8%;
   margin-right: 8%;
