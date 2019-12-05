@@ -111,10 +111,10 @@ font-family: Arial, Helvetica, sans-serif;
 	background: none;
 	}
 
-#Button1 {
+#lies {
 	position:relative;
 	vertical-align: middle;
-	width: auto;
+	margin-left:100px;
 	background: none;
 }
 
