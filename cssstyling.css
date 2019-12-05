@@ -112,6 +112,7 @@ font-family: Arial, Helvetica, sans-serif;
 	}
 
 .lies { background-color: #4CAF50; /* Green */
+  
   border: none;
   color: white;
   padding: 15px 32px;
@@ -124,7 +125,8 @@ font-family: Arial, Helvetica, sans-serif;
   transition-duration: 0.4s;
 	position:relative;
 	vertical-align: middle;
-	margin-left:100px;
+	margin-left:400px;
+	margin-top:700px;
 }
 .shadow{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
