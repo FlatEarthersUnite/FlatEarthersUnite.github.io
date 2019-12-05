@@ -101,9 +101,18 @@ font-family: Arial, Helvetica, sans-serif;
 /*W3schools start [responsive image]*/
 .earths {
 	max-width: 100%;
-	height: 100%;
-	margin: auto;
+	height: auto;
 /*W3schools end*/
+}
+.Firstpage.earths:empty
+{
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 }
 
 /* W3schools end all */
