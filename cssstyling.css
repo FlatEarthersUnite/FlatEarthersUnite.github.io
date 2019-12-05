@@ -104,8 +104,7 @@ font-family: Arial, Helvetica, sans-serif;
 	height: auto;
 /*W3schools end*/
 }
-.FirstPage.earths:empty
-{
+.FirstPage.earths:empty{
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -114,6 +113,14 @@ font-family: Arial, Helvetica, sans-serif;
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
+.button{
+	background-color: black;
+	border: none;
+	color: white;
+	text-align: center;
+}
+	
 
 /* W3schools end all */
 /*-- Framework - Ashley Dcosta */
