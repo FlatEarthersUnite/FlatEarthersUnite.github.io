@@ -101,7 +101,17 @@ font-family: Arial, Helvetica, sans-serif;
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .FirstPage {
-	margin: 50px;
+	margin: 100%;
+	height: auto;
+	width: auto;
+	background: none;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.FirstPage #Button1 {
+	positionL relative;
+	margin-bottom: 150px;
 	width: auto;
 	background: none;
 }
