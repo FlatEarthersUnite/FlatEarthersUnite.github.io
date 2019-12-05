@@ -113,8 +113,10 @@ font-family: Arial, Helvetica, sans-serif;
 
 .lies { background-color: grey;
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 60%;
+  left: 5%;
+  right: 95%;
+	bottom: 40%;
   border: none;
   color: white;
   transform: translate(-50%, -50%);
@@ -132,8 +134,10 @@ font-family: Arial, Helvetica, sans-serif;
 }
 .truth { background-color: grey;
   position: absolute;
-  top: 50%;
-  left: 75%;
+  top: 60%;
+  right: 5%;
+  bottom:40%;
+	left:95%;
   border: none;
   color: white;
   transform: translate(-50%, -50%);
