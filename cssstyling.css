@@ -1,5 +1,5 @@
 /* Date:2019-12-04 */
-/* Group members: Abhinay Arora, Ashley Dcosta, Daiva */
+/* Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas */
 /* Flat Earthers Unite */
 body {max-width: inherit; max-height: inherit;
   background: linear-gradient(to top, #000066 0%, #ffffff 100%);
@@ -97,6 +97,13 @@ font-family: Arial, Helvetica, sans-serif;
   }
 
 /* W3schools start [responsive navbar]*/
+
+/*W3schools start [responsive image]*/
+.earths {
+	max-width: 100%;
+	height: auto;
+/*W3schools end*/
+}
 
 /* W3schools end all */
 /*-- Framework - Ashley Dcosta */
