@@ -152,7 +152,7 @@ font-family: Arial, Helvetica, sans-serif;
   height: 600px;
   text-align: center;
 }  
-/** p4 **/
+/** p4 
 .Page4h1 { min-width:inherit;
   background-color: blue;
   height: 400px;
@@ -199,7 +199,7 @@ font-family: Arial, Helvetica, sans-serif;
 }  
 /*-- End of Framework - Ashley Dcosta */
 
-
+/*
 .Page5h1 { min-width:inherit;
   
   height: 300px;
@@ -275,4 +275,42 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
     margin-left: 2.5%;
     margin-right: 2.5%;}
+*/
         
+.Ph1 { min-width:inherit;
+  
+  height: 300px;
+  margin-top: 5%;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 20px;
+  text-align:left;
+  }
+#Pb1 {min-width: 40%;
+    height: 300px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 20px;}
+.Ph2 {
+    min-width:inherit;
+    height: 200px;
+    text-align:left;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;}
+ .Ph3 {
+  min-width: inherit;
+  
+  height: 600px;
+  text-align: center;
+}
+.Ph4 {
+  min-width: inherit;
+  
+  height: 600px;
+  text-align: center;
+}  
