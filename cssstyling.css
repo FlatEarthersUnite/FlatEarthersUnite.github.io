@@ -38,10 +38,10 @@ font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 /* Subnavbar for multiple pages by Abhinay Arora */
-.subnav {
+/*.subnav {
   float: left;
   overflow: hidden;
-}
+}*/
 .sticky {
   position: fixed;
   top: 0;
@@ -51,7 +51,7 @@ font-family: Arial, Helvetica, sans-serif;
 .sticky + .content {
   padding-top: 160px;
 }
-.subnav .subnavbtn {
+/*.subnav .subnavbtn {
   font-size: 16px;  
   border: none;
   outline: none;
@@ -61,11 +61,11 @@ font-family: Arial, Helvetica, sans-serif;
   font-family: inherit;
   margin: 0;
 }
-
-.navbar a:hover, .subnav:hover .subnavbtn {
+*/
+.navbar a:hover{
   background-color: grey;
 }
-
+/*
 .subnav-content {
   display: none;
   position: absolute;
@@ -89,7 +89,7 @@ font-family: Arial, Helvetica, sans-serif;
 .subnav:hover .subnav-content {
 	display: block;
 }
-
+*/
   
 /* main content ?? */
   .main {
