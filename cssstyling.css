@@ -110,6 +110,7 @@ font-family: Arial, Helvetica, sans-serif;
 .FirstPage #earths {
 	max-width: 100%;
 	height: auto;
+	float: right;
 }
 /*W3schools end*/
 	
