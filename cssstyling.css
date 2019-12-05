@@ -300,13 +300,13 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right: 2.5%
 }
 
- .Page2Box3 {
+ .Page2Box3-1 {
   min-width: inherit;
   height: 600px;
   text-align: center;
 }
 
-.Page2Box4 {
+.Page2Box3-2{
   min-width: inherit;
   height: 600px;
   text-align: center;
