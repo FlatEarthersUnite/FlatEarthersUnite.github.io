@@ -317,4 +317,10 @@ font-family: Arial, Helvetica, sans-serif;
   min-width: inherit;
   height: 600px;
   text-align: center;
-}  
+}
+
+p {
+    font-family: serif;
+    color: white;
+    font-variant: small-caps;
+}
