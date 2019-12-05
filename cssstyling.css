@@ -106,9 +106,9 @@ font-family: Arial, Helvetica, sans-serif;
 	background: none;
 	}
 
-.FirstPage #Button1 {
-	positionL relative;
-	margin-bottom: 150px;
+#Button1 {
+	position:relative;
+	vertical-align: middle;
 	width: auto;
 	background: none;
 }
