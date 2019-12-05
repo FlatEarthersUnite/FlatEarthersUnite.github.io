@@ -295,27 +295,34 @@ font-family: Arial, Helvetica, sans-serif;
 
 .Page2Box2 {
     min-width:inherit;
-    height: 200px;
-    text-align:left;
+    height: 650px;
+    text-align:center;
     font-size: 18px;
     font-weight: bolder;
     margin-top: 10px;
     margin-left: 2.5%;
-    margin-right: 2.5%
+    margin-right: 2.5%;
+    margin-bottom: 10px; 
 }
 
  .Page2Box3-1 {
-  min-width: inherit;
+   float: left;
+  max-width: 40%;
+  height: 600px;
+  text-align: left;
+  font-family: serif;
+    color: white;
+    font-variant: small-caps;
+}
+
+.Page2Box3-2{float: right;
+  max-width: 40%;
   height: 600px;
   text-align: center;
 }
-
-.Page2Box3-2{
-  min-width: inherit;
-  height: 600px;
-  text-align: center;
+.Page2Box3{
+  width: inherit;
 }
-
 p {
     font-family: serif;
     color: white;
