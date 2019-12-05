@@ -273,17 +273,7 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right: 2.5%;}
 */
         
-.box1 { min-width:inherit;
-  
-  height: 300px;
-  margin-top: 5%;
-  margin-left:5%;
-  margin-right:5%;
-  font-size: 20px;
-  text-align:left;
-  }
-
-#box1sub {min-width: 40%;
+.Page2Box1{min-width: 40%;
     height: 300px;
     margin-left: 8%;
     margin-right: 8%;
@@ -292,7 +282,7 @@ font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-.box2 {
+.Page2Box2 {
     min-width:inherit;
     height: 200px;
     text-align:left;
@@ -303,13 +293,13 @@ font-family: Arial, Helvetica, sans-serif;
     margin-right: 2.5%
 }
 
- .box3 {
+ .Page2Box3 {
   min-width: inherit;
   height: 600px;
   text-align: center;
 }
 
-.box4 {
+.Page2Box4 {
   min-width: inherit;
   height: 600px;
   text-align: center;
