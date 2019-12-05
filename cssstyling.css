@@ -101,7 +101,8 @@ font-family: Arial, Helvetica, sans-serif;
 /*W3schools start [responsive image]*/
 .earths {
 	max-width: 100%;
-	height: auto;
+	height: 100%;
+	margin: auto;
 /*W3schools end*/
 }
 
