@@ -115,9 +115,8 @@ font-family: Arial, Helvetica, sans-serif;
 
 /*W3schools start [responsive image]*/
 .FirstPage #earths {
-	max-width: 100%;
-	height: auto;
-  	display: block;
+	max-width: 50%;
+	display: block;
   	margin-left: auto;
   	margin-right: auto;
 }
