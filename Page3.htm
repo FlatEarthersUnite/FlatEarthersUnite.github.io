@@ -1,21 +1,20 @@
 <!-- Date:2019-12-04-->
-<!--Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas-->
+<!--Group members: Abhinay Arora, Ashley Dcosta, Daiva-->
 <!-- Flat Earthers Unite -->
 
 <!DOCTYPE html>
 <html lang = "en">
-<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <link href = "cssstyling.css"
     type = "text/css"
     rel = "stylesheet">   
-<title> Flat Earthers Unite </title>
+<title> i.e Flat Earthers Unite </title>
 </head>
 
-<!--Daiva-->
-<!--logo in header to appear above navbar & stay at top of page-->
+<!--logo in header to appear above navbar-->
 <header>
-<div class = "logo">
+<div class="logo">
     <img src = "Logo.svg" alt = "Flat Earther's Unite Logo"> <!--logo created by Daiva-->
 </div>
 </header>
@@ -23,83 +22,54 @@
 <body>
 
 <!--W3schools start Sticky Sub navbar with subnavigation menu : By Abhinay Arora-->
-<div class="navbar" id = "stickynav">
-  <a href="Index.html">Home</a>
-  <a href="Page2.htm">Search for the Truth</a>
-  <a href="Page3.htm">Learn from the Stars</a>
-  <a href="Page4".htm>Underneath it All</a>
-  <a href="Page5.htm">Explain This</a>
-  <a href="Page6.htm">Get Involved</a>
-   
-</div>
-    
-<script>
-window.onscroll = function() {StickyFunction()};
-  var navbar = document.getElementById("stickynav");
-  var stickyoffset = navbar.offsetTop;
-  function StickyFunction() {
-    if (window.pageYOffset >= stickyoffset) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
-
-<!-- NavBar Abhinay 
-<div class="navbar" od="respnav">
+<!-- NavBar Abhinay-->
+<div class="navbar" id="sticky">
     <a href="Index.html">HOME</a>
-    <a class="active" href="Page2.htm">Search for the Truth</a>
-    <a href="Page3.htm">Learn from the Stars</a>
+    <a href="Page2.htm">Search for the Truth</a>
+    <a class="active" href="Page3.htm">Learn from the Stars</a>
     <a href="Page4.htm">Underneath it All</a>
     <a href="Page5.htm">Explain This</a>
     <a href="Page6.htm">Get Involved</a>
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class = "fa fa-bars"></i> 
-</a> -->       
+</a>
+    </div>
+<script>
+    // sticky navbar by Abhinay Arora 
+    window.onscroll = function() {StickyFunction()};
+      var navbar = document.getElementById("stickynav");
+      var stickyoffset = navbar.offsetTop;
+      function StickyFunction() {
+        if (window.pageYOffset >= stickyoffset) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+</script>
 
-<!-- Framework - Ashley Dcosta-->
-<h1 class="Page5h1">If the earth were a rotating globe….<br>
+<!-- Framework - Ashley Dcosta-->            
 
-    Why does the horizon always appear perfectly flat along it’s horizontal axis? <br>
-    
-    How come you never have to look down to see the horizon?<br>
-    
-    Why aren’t people walking upside down as the “globe” rotates?<br>
-    
-    How is it that rivers can flow uphill to reach the sea?<br>
+<h1 class="Page2Box1"><p>If you don’t quite believe it yet, take a look at this video of Millie Bobby Brown’s revelation
+  that the earth is flat, because if you don’t believe a fourteen year old actress, then there’s nothing else that can be
+  done to save you from the grips of deceit.</p>
+</h1>
 
-    Why don’t bullets that are fired upwards land hundreds of feet to the West?<br>
-
-    How come when helicopters hover over the surface,<br>
-    they land in the exact same spot no matter how long they were in the air for?<br>
-  </h1>
-
-<p id="p5b1">
-   Image of globe with an X over it
+<p class="Page2Box2">
+    <iframe width="420" height="345" src="https://www.youtube.com/watch?v=jylWVydRTrg"></iframe>
+    </div>
 </p>
-<h2 class="Page5h2"></h2>
 
-<h3 class="Page5h3"> 
-
-<div class="p5b1">If we’ve caught your attention, you may be interested in more conspiracy theories. Here are some of the ones we recommend taking a look at à
-</div>
-<div class="p5b2">Chemtrails
-
-    The Illuminati
+<h2 class="Page2Box3">
+    <div class="Page2Box3-1">
+    <iframe width="420" height="345" src="https://www.youtube.com/watch?v=vpljiOgd9RQ"></iframe>
+    </div>
     
-    UFOs
+<div class="Page2Box3-2">
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    </div>
     
-    Vaccination
-    
-    The New World Order
-    
-    and of course..
-    
-    The New England Patriots
-
-</div>
-</h3>
+</h2>
 
 <!-- End of Framework - Ashley Dcosta-->
 <!--W3schools end all-->
