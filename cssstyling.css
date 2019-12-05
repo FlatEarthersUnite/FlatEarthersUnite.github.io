@@ -98,23 +98,21 @@ font-family: Arial, Helvetica, sans-serif;
 
 /* W3schools start [responsive navbar]*/
 
+.FirstPage {
+	margin: 0;
+	width: auto;
+	padding: 20px;
+	background: none;
+}
+
 /*W3schools start [responsive image]*/
-.earths {
+.FirstPage #earths {
 	max-width: 100%;
 	height: auto;
 /*W3schools end*/
 }
-.FirstPage.earths:empty{
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
 
-.button{
+.FirstPage .button{
 	background-color: black;
 	border: none;
 	color: white;
