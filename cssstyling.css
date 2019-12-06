@@ -99,14 +99,14 @@ a {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #truth {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 /*.FirstPage {
 	margin:50px;
@@ -195,7 +195,7 @@ a {
   margin-right: 5%;
 }
 
-.Page2Box3-2.iframe {
+.Page2Box3-2 iframe {
   height: 600px;
   max-width: 100%;
 }
