@@ -96,9 +96,17 @@ a {
 }
 
 #lies {background-color: black;
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    padding-bottom: 50px;
 }
 
 #truth {background-color: black;
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    padding-bottom: 50px;
 }
 /*.FirstPage {
 	margin:50px;
