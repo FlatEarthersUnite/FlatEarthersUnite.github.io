@@ -177,43 +177,45 @@ a {
 /* Page 2&3 - Daiva */
 
 .Page2Box1 {min-width: 40%;
-    height: 300px;
-    margin: 5% 5% 5% 5%;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
+  height: 300px;
+  margin: 5% 5% 5% 5%;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
 }
 
 .Page2Box2 {
-    min-width:inherit;
-    height: 650px;
-    margin: 5% 5% 5% 5%;
-    text-align: center;
+  min-width:inherit;
+  height: 650px;
+  margin: 5% 5% 5% 5%;
+  text-align: center;
 }
 
 #babyyoda {max-width: 100%;
-    height: auto;
+  height: auto;
 }
 
- .Page2Box3-1 {
-  float: left;
-  max-width: 40%;
-  height: 600px;
-  text-align: left;
-  margin-left: 5%;
+.Page2Box3 {display: inline;
+
+}
+.Page2Box3-1 {
+float: left;
+max-width: 40%;
+height: 600px;
+text-align: left;
+margin-left: 5%;
 }
 
 .Page2Box3-2{float: right;
-  width: 45px;
-  height: 600px;
-  margin-right: 5%;
+width: 40%;
+height: 600px;
+margin-right: 5%;
 }
+.Page2Video {width:600px;
+height: 400px;
+min-width:200px; 
+min-height:100px;}
 
-.Page2Box3-2 iframe {
-  height: 600px;
-  max-width: 100%;
-}
-xxxxxxxxxxxxxxxxxxxxxxxx
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
 
