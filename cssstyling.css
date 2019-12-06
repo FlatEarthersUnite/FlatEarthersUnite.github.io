@@ -171,23 +171,33 @@ min-height:100px;}
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
 
-.Page4Box1 {min-width:inherit;
-  height: 400px;
-  margin-top: 0px;
+.Page4Box1 {min-width: inherit;
+  height: 600px;
+  text-align: center;
   }
 
 .Page4Box2 {min-width: 40%;
-  height: 400px;
+  height: 300px;
   margin-left: 8%;
   margin-right: 8%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 10%;
   text-align: justify;
   font-size: 20px;
   font-weight: bold;  
 }
+.Page4Box2-1 {min-width: 40%;
+  height: 200px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+  color:white;  
+}
 
-.Page4Box3 {
+.Page4Box3 {color: white;
   min-width:inherit;
   height: 200px;
   text-align:center;
