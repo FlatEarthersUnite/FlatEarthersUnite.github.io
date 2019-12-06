@@ -2,10 +2,142 @@
 <html lang = "en">
 <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
 <head>
-<link rel="stylesheet" type="type/css" href= "Page1.css">    
+<!-- <link rel="stylesheet" type="type/css" href= "Home.css">     -->
+<!-- <script src="Home.js"></script> -->
 <title> Flat Earthers Unite </title>
 </head>
 <body>
+<style>/**********************************************
+        *** GENERAL
+        **********************************************/
+        :root {
+            --position: 0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body, html {
+            width:100%;
+            height:100%;
+            font-family: 'Share Tech Mono', monospace;
+        }
+        
+        #container {
+            height: 1000vh;
+            background: whitesmoke;
+        }
+        
+        .center {
+            text-align: center;
+            position: fixed;
+            top: 30px;
+            left: 80%;
+            transform: translate(-50% , -50%);
+        }
+        
+        .el-st {
+            color: white;
+            font-size: 22px;
+            font-weight:bold;
+            letter-spacing: 4px;
+        }
+        
+        .el-sp.is-changing {
+            animation: changing 0.1s infinite;
+        }
+        
+        .el-sp {
+            transition: all 0.1s;
+            text-shadow: 0 0 10px #005881;
+            position: relative;
+            will-change: transform, opacity;
+        }
+        
+        .el-sp:after {
+            content:attr(data-txt);
+            color:whitesmoke;
+            position: absolute;
+            top: 30px;
+            left:0;
+            opacity:0;
+            will-change: transform, opacity;
+        }
+        
+        .el-sp.is-changing:after {
+            animation: changingAfter 0.4s infinite alternate;
+        }
+        
+        .scroll {
+            margin-top: 40px;
+            color:#005881;
+            display: inline-block;
+            padding-bottom: 3px; 
+            padding-right: 40px;
+            position: relative;
+        }
+        
+        .scroll:after {
+            content:'';
+            position: absolute;
+            left: calc(100% - 35px);
+            top: 0;
+            animation: dots 2s infinite;
+        }
+        
+        @keyframes changing {
+            0% {opacity:1;}
+            50% {opacity:0.5;}
+            100% {opacity:1;}
+        }
+        
+        @keyframes changingAfter {
+            0% {opacity:0.3;transform:translateX(10px) scaleX(2)}
+            50% {opacity:0;transform:translateX(0) scaleX(2)}
+            100% {opacity:0.3;transform:translateX(-10px) scaleX(2)}
+        }
+        
+        @keyframes dots {
+            0% {content:''}
+            25% {content:'.'}
+            50% {content:'..'}
+            75% {content:'...'}
+        }
+.navbar {
+  overflow: hidden;
+	width:100%;
+  background-color: black;
+ 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Share Tech Mono', monospace;
+}
+.sticky {
+  position: fixed;
+  top: 5px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 160px;
+}
+.navbar a:hover{
+    color: whitesmoke;
+  background-color: grey;
+}
+        
+</style>
 <div class="navbar" id = "stickynav">
   <a href="Index.html">Home</a>
   <a href="Page2.htm">Search for the Truth</a>
@@ -13,13 +145,170 @@
   <a href="Page4".htm>Underneath it All</a>
   <a href="Page5.htm">Explain This</a>
   <a href="Page6.htm">Get Involved</a>
-  <div id="container">
-        <div class="center">
-          <h1 class="el-st">i.e.FlatEarthersUnite</h1>
-          <!-- <span class="scroll">Scroll to shuffle</span> -->
+</div>
+
+<div id="container">
+        <div class="center"><h1 class="el-st">i.e.FlatEarthersUnite</h1></div>    
+</div>
+<div>
+        <!--W3schools start [Javascript Introduction, The Light Bulb]-->
+        <button  onclick = "document.getElementById('earths').src = 'Globe.svg'">Lies</button> <!--Globe SVG created by Daiva-->
+        <button class="truth" class="shadow" onclick = "document.getElementById('earths').src = 'FlatEarth.svg'">Truth</button>
+        <div class = "FirstPage" id="center">
+        <img id="earths" src = "FlatEarth.svg"> <!--FlatEarth SVG created by Daiva-->
         </div>
-      </div>
+       
+</div>
+  <script>var stringRandom = (function() {
+
+        var data = {
+            isScrolling : false,
+            repeat : 0,
+            target : [],
+            letters : '*+-/@_$[%£!XO1&>',
+            originalStrings : '',
+            singleLetters : []
+        }
+        
+        Array.prototype.shuffle = function() {
+            var input = this;
+             
+            for (var i = input.length-1; i >=0; i--) {
+             
+                var randomIndex = Math.floor(Math.random()*(i+1)); 
+                var itemAtIndex = input[randomIndex]; 
+                 
+                input[randomIndex] = input[i]; 
+                input[i] = itemAtIndex;
+            }
+            return input;
+        }
+        
+        function checkLength(x) {
+            return Array.from(document.querySelectorAll(x)).length > 0;
+        }
+        
+        function addListener(evt, fx) {
+            window.addEventListener(evt, fx);    
+        }
+        
+        function changeLetter(letter) {
+            if(letter.textContent != ' ') {
+                letter.classList.add('is-changing');
+                letter.style.animationDuration = Math.random().toFixed(2) + 's';
+                
+                var newChar = data.letters.substr( Math.random() * data.letters.length, 1);
+        
+                letter.textContent = newChar;
+                letter.setAttribute('data-txt', newChar);
+            }
+        }
+        
+        function resetLetter(letter, value) {
+                letter.classList.remove('is-changing');
+                letter.textContent = value;
+                letter.setAttribute('data-txt', value);
+        }
+        
+        
+        // divide le singole lettere delle stringhe e le wrappa in span
+        function divideLetters() {
+        
+            data.target.forEach( (element, index) => {
+                
+                var text = element.textContent;
+                var textDivided = '';
+        
+                data.originalStrings = text;
+        
+                for(var i = 0; i < text.length; i++) {
+                    textDivided += `<span class="el-sp el-st-${index}-span-${i}" data-txt="${text.substr(i, 1)}">${text.substr(i, 1)}</span>`;
+                }
+        
+                element.innerHTML = textDivided;
+            }); 
+            data.singleLetters = document.querySelectorAll('.el-sp');
+        }
+        
+        // changes letters
+        function changeLetters() {
+            if(data.isScrolling) {
+                data.singleLetters.forEach(function(el, index){
+                    changeLetter(el);
+                });
+            }
+        
+            setTimeout(changeLetters, 10);
+        }
+        
+        // reset to initial letters
+        function resetLetters() {
+        
+            var randomArray = [];  
+            for(var i = 0; i < data.singleLetters.length;i++) {
+                randomArray.push(i);
+            }
+        
+            randomArray.shuffle();
+        
+            randomArray.forEach(function(el, index){
+        
+                setTimeout(function(){
+                    resetLetter(data.singleLetters[el], data.originalStrings.substring(el, el + 1));
+                }, (index * 20 * (Math.random() * 5))).toFixed(2);
+                    
+            });
+        }
+        
+        // event listener sullo scroll
+        function updateScrollState() {
+            clearTimeout(delay);
+            data.isScrolling = true;
+            
+            var delay = setTimeout(function() {
+                data.isScrolling = false;
+                resetLetters();
+            }, 300);
+        };
+        
+        return {
+            init: function(selector){
+        
+                // controllo che ci siano stringhe su cui agire
+                if(checkLength(selector)) {
+        
+                    // salvo le stringhe
+                    data.target = Array.from(document.querySelectorAll(selector));
+                    
+                    // divido le singole stringhe in lettere
+                    divideLetters();
+        
+                    // lancio la funzione che si ripete
+                    changeLetters();
+        
+                    // aggiungo il listener allo scroll
+                    addListener('scroll', updateScrollState);
+        
+                }
+            }
+        }
+        
+        })();
+        
+        stringRandom.init('.el-st');
+        window.onscroll = function() {StickyFunction()};
+  var navbar = document.getElementById("stickynav");
+  var stickyoffset = navbar.offsetTop;
+  function StickyFunction() {
+    if (window.pageYOffset >= stickyoffset) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+        
+        
+        Resources</script>
 </div>    
-<script src="master.js"></script>    
 </body>
 </html>
