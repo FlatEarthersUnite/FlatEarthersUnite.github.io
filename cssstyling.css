@@ -66,6 +66,37 @@ body {background-color: black;}
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
+/*Formatting - Daiva */
+
+p {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size:10vw;
+}
+
+a {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size:10vw;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size:20vw;
+}
+
+.credits {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size:5vw;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
 
 .FirstPage {
 	margin:50px;
@@ -87,8 +118,8 @@ body {background-color: black;}
   webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 	margin-left:400px;
-	
 }
+
 .truth { background-color: grey;
   position: absolute;
   border: none;
@@ -117,22 +148,16 @@ body {background-color: black;}
 }
 /*W3schools end*/
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
-
-p {
-    font-family: sans-serif;
-    color: white;
-    font-variant: small-caps;
-}
-
 /* Framework - Ashley Dcosta */
-/* Page 2&3 - Daiva */
-	
 /* --------------------------------------------------------------------------------------------------------------------------*/
+/* Page 2&3 - Daiva */
 
 .Page2Box1 {min-width:inherit;
   height: 400px;
   margin-top: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
