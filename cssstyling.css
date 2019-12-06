@@ -95,14 +95,14 @@ a {
 	height:auto;
 }
 
-#lies {background-color: black;
+#lies {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
     padding-bottom: 50px;
 }
 
-#truth {background-color: black;
+#truth {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
