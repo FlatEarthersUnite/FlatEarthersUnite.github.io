@@ -98,6 +98,11 @@ ul {font-family: sans-serif;
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.centeredim{
+  max-width: 100%;
+  height: auto;
+}
+
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .firstpage {
@@ -291,7 +296,7 @@ height: 400px;
 }
 
 .Page6Box3-1 {min-width:inherit;
-  max-width: 800px;
+  max-width: 400px;
   height: 200px;
   text-align:left;
   margin-top: 10px;
