@@ -174,9 +174,10 @@ a {
     min-width:inherit;
     height: 650px;
     margin: 5% 5% 5% 5%;
+    text-align: center;
 }
 
-.Page2Box2 #babyyoda {max-width: 100%;
+#babyyoda {max-width: 100%;
     height: auto;
 }
 
