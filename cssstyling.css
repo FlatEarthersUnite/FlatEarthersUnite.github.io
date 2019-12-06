@@ -100,10 +100,11 @@ a {
     font-family: sans-serif;
     color: black;
     font-variant: small-caps;
-    margin-bottom: 50px;
-    float: right;
-    margin-top: 25%;
-    margin-right:25%;
+    margin-bottom: 25px;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    text-align: center;
 }
 
 #truth {background-color:white;
@@ -111,10 +112,10 @@ a {
     font-family: sans-serif;
     color: black;
     font-variant: small-caps;
-    margin-bottom: 50px;
-    float: left;
-    margin-top: 25%;
-    margin-left:25%;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    text-align: center;
 }
 /*.FirstPage {
 	margin:50px;
