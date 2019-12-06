@@ -196,25 +196,6 @@ width: 40%;
 height: 600px;
 align-self: center;
 }
-<<<<<<< HEAD
-
-=======
-.Page3Box3-1 {
-  float: left;
-  width: 40%;
-  height: 600px;
-  text-align: left;
-  margin-left: 5%;
-  margin-top: 10%;
-  }
-  
-  .Page3Box3-2{float: right;
-  width: 40%;
-  height: 600px;
-  margin-top: 10%;
-  margin-right: 5%;
-  }
->>>>>>> f5bd6b166700a7849f2ddea9394736a6cc7d3250
 .Page4Box1 {min-width: inherit;
 height: 600px;
 text-align: center;
