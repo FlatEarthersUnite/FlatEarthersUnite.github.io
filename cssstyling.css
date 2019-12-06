@@ -9,8 +9,7 @@ font-family: Arial, Helvetica, sans-serif;
 }*/
 /*"fixed" position in top left corner"*/
 
-body {background-color: black;
-    max-width: inherit;
+body {max-width: inherit;
     max-height: inherit;
     font-family: sans-serif;
     color: white;
@@ -92,10 +91,11 @@ a {
     font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-ul {font-family: sans-serif;
+li {font-family: sans-serif;
   color: white;
   font-family: Lucida Console;
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  margin-top:20px;
 }
 
 .centeredim{
@@ -220,6 +220,7 @@ height: 400px;
 .Page4Box1 {min-width: inherit;
   height: 600px;
   text-align: center;
+  margin-top:5%;
   }
 
 .Page4Box2 {min-width: 40%;
@@ -255,12 +256,12 @@ height: 400px;
   .Page4Box4-1 {width: 40%;
   float: left;
   margin-left: 5%;
-  text-align: justify;
+  text-align: left;
 }
 
 .Page4Box4-2 {float: right;
   width: 40%;
-  text-align: justify;
+  text-align: left;
   height: 400px;
   margin-right:5%;
 }
@@ -322,10 +323,11 @@ height: 400px;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
+}
 
 .Page6Box3 {
   height: 600px;
-  }
+  width: inherit;}
 
 .Page6Box3-1 {min-width:inherit;
   max-width: 400px;
@@ -341,3 +343,77 @@ height: 400px;
 margin-right: 10%;
 }
 
+@keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@-webkit-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@-moz-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@-ms-keyframes move-twink-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+
+@-webkit-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+
+@-moz-keyframes move-clouds-back {
+  from {background-position:0 0;}
+  to {background-position:10000px 0;}
+}
+
+@-ms-keyframes move-clouds-back {
+  from {background-position: 0;}
+  to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+position:absolute;
+top:0;
+left:0;
+right:0;
+bottom:0;
+width:100%;
+height:100%;
+display:block;
+}
+
+.stars {
+background:#000 url(images/stars.png) repeat top center;
+z-index:0;
+}
+.twinkling{
+background:transparent url(images/twinkling.png) repeat top center;
+z-index:1;
+-moz-animation:move-twink-back 200s linear infinite;
+-ms-animation:move-twink-back 200s linear infinite;
+-o-animation:move-twink-back 200s linear infinite;
+-webkit-animation:move-twink-back 200s linear infinite;
+animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+  background:transparent url(images/clouds.png) repeat top center;
+  z-index:3;
+-moz-animation:move-clouds-back 200s linear infinite;
+-ms-animation:move-clouds-back 200s linear infinite;
+-o-animation:move-clouds-back 200s linear infinite;
+-webkit-animation:move-clouds-back 200s linear infinite;
+animation:move-clouds-back 200s linear infinite;
+}
