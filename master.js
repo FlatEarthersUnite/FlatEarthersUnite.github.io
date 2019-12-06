@@ -1,4 +1,3 @@
-<script>
 var stringRandom = (function() {
 
 var data = {
@@ -140,4 +139,4 @@ stringRandom.init('.el-st');
 
 
 Resources
-</script>
+
