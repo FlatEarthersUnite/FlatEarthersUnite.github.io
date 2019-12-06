@@ -1,3 +1,4 @@
+    
  /* Date:2019-12-04 */
 /* Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas */
 /* Flat Earthers Unite */
@@ -9,65 +10,71 @@ font-family: Arial, Helvetica, sans-serif;
 }*/
 /*"fixed" position in top left corner"*/
 
-body {max-width: inherit;
-    max-height: inherit;
-    font-family: sans-serif;
-    background-color: black;
-    color: white;
-    /*https://css-tricks.com/snippets/css/fluid-typography/*/
-    font-family: Lucida Console;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+body {background-color:black;
+  background-image:
+  radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  max-width: inherit;
+  max-height: inherit;
+  font-family: sans-serif;
+  color: white;
+  /*https://css-tricks.com/snippets/css/fluid-typography/*/
+  font-family: Lucida Console;
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /*Daiva*/
 .logo {
-    position: relative;
-    top: 0;
-    left: 0;
-    /* responsive image W3schools start*/
-    max-width: 100%;
-    height: auto;
-    /* W3schools end*/
+  position: relative;
+  top: 0;
+  left: 0;
+  /* responsive image W3schools start*/
+  max-width: 100%;
+  height: auto;
+  /* W3schools end*/
 }
 /*.center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
+margin: auto;
+width: 60%;
+padding: 10px;
 }
-
 /*W3schools start [fixed top menu]*/
 /* navigation bar basics BY Abhinay Arora*/ 
 .navbar {
-  overflow: hidden;
-	width:100%;
-  background-color: #333; 
+overflow: hidden;
+width:100%;
+background-color: #333; 
 }
 
 .navbar a {
-  float: left;
-  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+float: left;
+font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 .sticky + .content {
-  padding-top: 160px;
+padding-top: 160px;
 }
 
 .navbar a:hover{
-  background-color: grey;
+background-color: grey;
 }
 
 .main {
-  margin-top: 30px;
+margin-top: 30px;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
@@ -75,68 +82,68 @@ body {max-width: inherit;
 
 
 p {
-    font-family: sans-serif;
-    color: white;
-    font-family: Lucida Console;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-
-.space {
-  margin-top: 20px
-}
-
-a {
-    font-family: sans-serif;
-    color: white;
-    font-family: Lucida Console;
-    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-}
-
-li {font-family: sans-serif;
+  font-family: sans-serif;
   color: white;
   font-family: Lucida Console;
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
-  margin-top:20px;
+}
+
+.space {
+margin-top: 20px
+}
+
+a {
+  font-family: sans-serif;
+  color: white;
+  font-family: Lucida Console;
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+li {font-family: sans-serif;
+color: white;
+font-family: Lucida Console;
+font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+margin-top:20px;
 }
 
 .centeredim{
-  max-width: 100%;
-  height: auto;
+max-width: 100%;
+height: auto;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .firstpage {
-	text-align: center;
-	margin-top: 5%;
+text-align: center;
+margin-top: 5%;
 }
-	
+
 #earths {
-	max-width:100%;
-	height:auto;
+max-width:100%;
+height:auto;
 }
 
 #lies {background-color: white;
-    border: none;
-    font-family: sans-serif;
-    color: black;
-    font-variant: small-caps;
-    margin-bottom: 25px;
-    position: relative;
-    width: 50px;
-    height: 20px;
-    text-align: center;
+  border: none;
+  font-family: sans-serif;
+  color: black;
+  font-variant: small-caps;
+  margin-bottom: 25px;
+  position: relative;
+  width: 50px;
+  height: 20px;
+  text-align: center;
 }
 
 #truth {background-color:white;
-    border: none;
-    font-family: sans-serif;
-    color: black;
-    font-variant: small-caps;
-    position: relative;
-    width: 50px;
-    height: 20px;
-    text-align: center;
+  border: none;
+  font-family: sans-serif;
+  color: black;
+  font-variant: small-caps;
+  position: relative;
+  width: 50px;
+  height: 20px;
+  text-align: center;
 }
 
 /* Framework - Ashley Dcosta */
@@ -144,22 +151,22 @@ li {font-family: sans-serif;
 /* Page 2&3 - Daiva */
 
 .Page2Box1 {min-width: 40%;
-  height: 300px;
-  margin: 5% 20% 10% 20%;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-align: center;
+height: 300px;
+margin: 5% 20% 10% 20%;
+padding-left: 5px;
+padding-right: 5px;
+text-align: center;
 }
 
 .Page2Box2 {
-  min-width:inherit;
-  height: 650px;
-  margin: 5% 5% 5% 5%;
-  text-align: center;
+min-width:inherit;
+height: 650px;
+margin: 5% 5% 5% 5%;
+text-align: center;
 }
 
 #babyyoda {max-width: 100%;
-  height: auto;
+height: auto;
 }
 
 .Page2Box3 {display: inline;
@@ -184,160 +191,132 @@ height: 400px;
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
-.page3Box1 {min-width: 40%;
-  height: 80px;
-  margin: 5% 20% 10% 20%;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-align: center;
+.page3Video1{
+width: 40%;
+height: 600px;
+align-self: center;
 }
-.page3box2{
-  width: 40%;
-  margin: auto;
-  height: 400px;
-  text-align: center;
-}
-.page3Video1{ 
-  width: 100%;
- height: 400px;
- text-align: center;
- 
-}
-.Page3Box3-1 {
-  float: left;
-  max-width: 40%;
-  height: 600px;
-  text-align: left;
-  margin-left: 5%;
-  margin-top: 10%;
-  }
-  
-  .Page3Box3-2{float: right;
-  width: 40%;
-  height: 600px;
-  margin-top: 10%;
-  margin-right: 5%;
-  }
+
 .Page4Box1 {min-width: inherit;
-  height: 600px;
-  text-align: center;
-  margin-top:5%;
-  }
+height: 600px;
+text-align: center;
+margin-top:5%;
+}
 
 .Page4Box2 {min-width: 40%;
-  height: 300px;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 10%;
-  text-align: justify;
+height: 300px;
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 10%;
+text-align: justify;
 }
 .Page4Box2-1 {min-width: 40%;
-  height: 200px;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 2.5%;
-  margin-bottom: 5%;
-  text-align: justify;
-  color:white;  
+height: 200px;
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 2.5%;
+margin-bottom: 5%;
+text-align: justify;
+color:white;  
 }
 
 .Page4Box3 {color: white;
-  min-width:inherit;
-  height: 200px;
-  text-align:center;
-  margin-top: 10px;
+min-width:inherit;
+height: 200px;
+text-align:center;
+margin-top: 10px;
 }
 
 .Page4Box4 {
-  min-width: inherit;
-  height: 600px;
-  text-align: center;
+min-width: inherit;
+height: 600px;
+text-align: center;
 }
 
-  .Page4Box4-1 {width: 40%;
+.Page4Box4-1 {width: 40%;
+float: left;
+margin-left: 5%;
+text-align: left;
+}
+
+.Page4Box4-2 {float: right;
+width: 40%;
+text-align: left;
+height: 400px;
+margin-right:5%;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+
+.Page5Box1 { min-width:200px;
+max-width: inherit;
+max-height: 300px;
+margin-top: 5%;
+margin-left:5%;
+margin-right:5%;
+text-align:center;
+}
+
+.Page5Box2 {min-width: 40%;
+height: 750px;
+margin-left: 8%;
+margin-right: 8%;
+margin-top: 5%;
+text-align: center;  
+}
+
+.Page5Box3 {
+min-width: inherit;
+max-width: inherit;
+height: 600px;
+}  
+
+.Page5Box3-1 {min-width:5%;
+max-width: 500px;
   float: left;
   margin-left: 5%;
   text-align: left;
 }
 
-.Page4Box4-2 {float: right;
-  width: 40%;
-  text-align: left;
-  height: 400px;
-  margin-right:5%;
-}
-  
-/* --------------------------------------------------------------------------------------------------------------------------*/
-
-.Page5Box1 { min-width:200px;
-  max-width: inherit;
-  max-height: 300px;
-  margin-top: 5%;
-  margin-left:5%;
-  margin-right:5%;
-  text-align:center;
-  }
-
-.Page5Box2 {min-width: 40%;
-  height: 750px;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-top: 5%;
-  text-align: center;  
-}
-
-.Page5Box3 {
-  min-width: inherit;
-  max-width: inherit;
-  height: 600px;
-}  
-
-.Page5Box3-1 {min-width:5%;
-  max-width: 500px;
-    float: left;
-    margin-left: 5%;
-    text-align: left;
-}
-
 .Page5Box3-2 {float: right;
-  min-width:100px;
-  max-width:500px;
-  text-align:left; 
-  height: 400px;
-  margin-right:5%;
+min-width:100px;
+max-width:500px;
+text-align:left; 
+height: 400px;
+margin-right:5%;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .Page6Box1 { min-width:inherit;
-  height: 300px;
-  margin-top: 5%;
-  margin-left:5%;
-  margin-right:5%;
-  text-align:left;
+height: 300px;
+margin-top: 5%;
+margin-left:5%;
+margin-right:5%;
+text-align:left;
 }
 
 .Page6Box2 {min-width: 40%;
-    height: 788px;
-    margin-left: 8%;
-    margin-right: 8%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: center;
+  height: 788px;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
 }
 
 .Page6Box3 {
-  height: 600px;
-  width: inherit;}
+height: 600px;
+width: inherit;}
 
 .Page6Box3-1 {min-width:inherit;
-  max-width: 400px;
-  height: 200px;
-  text-align:left;
-  margin-top: 10px;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  float: left;
+max-width: 400px;
+height: 200px;
+text-align:left;
+margin-top: 10px;
+margin-left: 2.5%;
+margin-right: 2.5%;
+float: left;
 }
 
 .Page6Box3-2 {float:right;
