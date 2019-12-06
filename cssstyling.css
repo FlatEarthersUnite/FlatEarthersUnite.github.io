@@ -7,6 +7,7 @@ font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }*/
 /*"fixed" position in top left corner"*/
+body {background-color: black;}
 
 /*{
   box-sizing: border-box;
