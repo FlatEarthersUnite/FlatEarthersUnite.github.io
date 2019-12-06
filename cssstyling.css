@@ -99,7 +99,7 @@ a {
     font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
-ul {font-family: sans-serif;
+li {font-family: sans-serif;
   color: white;
   font-family: Lucida Console;
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
