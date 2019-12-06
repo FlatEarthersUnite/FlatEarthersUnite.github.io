@@ -85,7 +85,12 @@ a {
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
-.FirstPage {
+.firstpage {
+	align: center;
+}
+	
+
+/*.FirstPage {
 	margin:50px;
 	width: auto;
 	background: none;
@@ -102,7 +107,7 @@ a {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  webkit-transition-duration: 0.4s; /* Safari */
+  webkit-transition-duration: 0.4s; /* Safari
   transition-duration: 0.4s;
 	margin-left:400px;
 }
@@ -118,7 +123,7 @@ a {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  webkit-transition-duration: 0.4s; /* Safari */
+  webkit-transition-duration: 0.4s; /* Safari
   transition-duration: 0.4s;
 	margin-left:400px;
 }
@@ -126,13 +131,13 @@ a {
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/*W3schools start [responsive image]*/
+/*W3schools start [responsive image]
 .FirstPage #earths {
 	max-width: 50%;
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-}
+}*/
 /*W3schools end*/
 
 /* Framework - Ashley Dcosta */
