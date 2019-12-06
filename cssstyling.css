@@ -193,6 +193,7 @@ height: 400px;
 .Page4Box1 {min-width: inherit;
   height: 600px;
   text-align: center;
+  margin-top:5%;
   }
 
 .Page4Box2 {min-width: 40%;
@@ -228,12 +229,12 @@ height: 400px;
   .Page4Box4-1 {width: 40%;
   float: left;
   margin-left: 5%;
-  text-align: justify;
+  text-align: left;
 }
 
 .Page4Box4-2 {float: right;
   width: 40%;
-  text-align: justify;
+  text-align: left;
   height: 400px;
   margin-right:5%;
 }
@@ -295,10 +296,11 @@ height: 400px;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
+}
 
 .Page6Box3 {
   height: 600px;
-  }
+  width: inherit;}
 
 .Page6Box3-1 {min-width:inherit;
   max-width: 400px;
