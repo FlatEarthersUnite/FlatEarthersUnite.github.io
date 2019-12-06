@@ -72,12 +72,15 @@ p {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
+    /*https://css-tricks.com/snippets/css/fluid-typography/*/
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 a {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
@@ -136,7 +139,7 @@ a {
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /* Page 2&3 - Daiva */
 
-.Page2Box1{min-width: 40%;
+.Page2Box1 {min-width: 40%;
     height: 300px;
     margin: 5% 5% 5% 5%;
     padding-left: 5px;
@@ -156,32 +159,22 @@ a {
     height: auto;
 }
 
-.Page2Box2.credits {
-    font-family: sans-serif;
-    color: white;
-    font-variant: small-caps;
-    text-align: center;
-}
-
  .Page2Box3-1 {
   float: left;
   max-width: 40%;
   height: 600px;
   text-align: justify;
-  margin-left: 10%;
-  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .Page2Box3-2{float: right;
   max-width: 40%;
   height: 600px;
-  margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .Page2Box3-2.iframe {
-  width: 1200;
-  height: 600;
+  height: 600px;
   max-width: 100%;
 }
 
