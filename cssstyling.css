@@ -325,12 +325,6 @@ margin-right: 100px;
     box-sizing: border-box;
 }
 
-body, html {
-    width:100%;
-    height:100%;
-    font-family: 'Share Tech Mono', monospace;
-}
-
 #container {
     height: 1000vh;
     background: #000;
