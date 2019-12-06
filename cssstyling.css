@@ -185,11 +185,10 @@ a {
 
 .Page2Box3-2.videowrapper {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
 }
 .videowrapper iframe {
+	width: 560;
+	height: 315;
 	position: absolute;
 	top: 0;
 	left: 0;
