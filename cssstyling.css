@@ -95,7 +95,7 @@ a {
 	height:auto;
 }
 
-#lies {background-color: black;
+#lies {background-color: white;
     border: none;
     font-family: sans-serif;
     color: black;
@@ -106,7 +106,7 @@ a {
     margin-right:25%;
 }
 
-#truth {background-color: black;
+#truth {background-color:white;
     border: none;
     font-family: sans-serif;
     color: black;
