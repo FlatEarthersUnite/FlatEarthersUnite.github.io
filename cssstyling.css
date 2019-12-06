@@ -65,10 +65,6 @@ top: 0;
 width: 100%;
 }
 
-/* .sticky + .content {
-padding-top: 160px;
-} */
-
 .navbar a:hover{
 background-color: grey;
 }
@@ -191,6 +187,7 @@ height: 400px;
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
+/* Page 3 formatted by Abhinay Arora */
 .page3Box1 {min-width: 40%;
   height: 80px;
   margin: 5% 20% 10% 20%;
