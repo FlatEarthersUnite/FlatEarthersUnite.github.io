@@ -95,16 +95,18 @@ a {
 	height:auto;
 }
 
-#lies {
+#lies {background-color: black;
+    border: none;
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
 }
 
-#truth {
+#truth {background-color: black;
+    border: none;
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
 }
