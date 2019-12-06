@@ -82,6 +82,10 @@ p {
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.space {
+  margin-top: 30px
+}
+
 a {
     font-family: sans-serif;
     color: white;
