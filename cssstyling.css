@@ -197,6 +197,7 @@ height: 400px;
   padding-left: 5px;
   padding-right: 5px;
   text-align: center;
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 .page3box2{
   width: 40%;
