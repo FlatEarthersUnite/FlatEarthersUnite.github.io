@@ -136,15 +136,10 @@
     color: whitesmoke;
   background-color: grey;
 }
-.FirstPage {
-	margin:50px;
-	width: auto;
-	background: none;
-	}
+
 #earths {
-	position: fixed;
-	left:50%;
-  	max-width: 50%;
+	position: static;
+	width: 50%;
 	display: block;
 	margin-left: auto;
   	margin-right: auto;
@@ -180,7 +175,7 @@
 	<!--W3schools start [Javascript Introduction, The Light Bulb]-->
     	<button id="lies" onclick = "document.getElementById('earths').src = 'Globe.svg'">Lies</button> <!--Globe SVG created by Daiva-->
     	<button id="truth" onclick = "document.getElementById('earths').src = 'FlatEarth.svg'">Truth</button>
-    	<img id="earths" src = "FlatEarth.svg"> <!--FlatEarth SVG created by Daiva-->
+    	<img id="earths" id="stickynav" src = "FlatEarth.svg"> <!--FlatEarth SVG created by Daiva-->
 </div>
 <script>var stringRandom = (function() {
 
