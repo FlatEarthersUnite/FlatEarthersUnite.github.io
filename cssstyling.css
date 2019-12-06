@@ -163,7 +163,6 @@ a {
     height: auto;
 }
 
-
 .Page2Box2.credits {
     font-family: sans-serif;
     color: white;
@@ -189,9 +188,6 @@ a {
 iframe {
   width: 1200;
   height: 600;
-  position: absolute;
-  top: 0;
-  left: 0;
   max-width: 100%;
 }
 
