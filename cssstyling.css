@@ -186,7 +186,7 @@ height: 400px;
 .page3Video1{
   width: 40%;
  height: 600px;
- 
+ align-self: center;
 }
 
 .Page4Box1 {min-width: inherit;
