@@ -12,6 +12,11 @@ font-family: Arial, Helvetica, sans-serif;
 body {background-color: black;
     max-width: inherit;
     max-height: inherit;
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    /*https://css-tricks.com/snippets/css/fluid-typography/*/
+    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /*Daiva*/
@@ -67,6 +72,7 @@ body {background-color: black;
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Formatting - Daiva */
+
 
 p {
     font-family: sans-serif;
