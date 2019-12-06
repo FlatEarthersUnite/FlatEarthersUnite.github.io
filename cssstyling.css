@@ -40,7 +40,7 @@ body {background-color: black;
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -87,7 +87,7 @@ a {
 
 .firstpage {
 	text-align: center;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 	
 #earths {
@@ -96,17 +96,19 @@ a {
 }
 
 #lies {background-color: black;
+    border: none;
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-variant: small-caps;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 #truth {background-color: black;
+    border: none;
     font-family: sans-serif;
-    color: white;
+    color: black;
     font-variant: small-caps;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 /*.FirstPage {
 	margin:50px;
@@ -197,10 +199,18 @@ a {
   height: 600px;
   margin-right: 5%;
 }
+<<<<<<< HEAD
 .Page2Box3-2 iframe{width:600px;
   height: 400px;
   min-width:200px; 
   min-height:100px;}
+=======
+
+.Page2Box3-2 iframe {
+  height: 600px;
+  max-width: 100%;
+}
+>>>>>>> a6fcd9dd1771e314311a580331af7e5c027d8994
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
