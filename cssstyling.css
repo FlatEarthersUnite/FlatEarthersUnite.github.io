@@ -1,4 +1,4 @@
-/* Date:2019-12-04 */
+ /* Date:2019-12-04 */
 /* Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas */
 /* Flat Earthers Unite */
 
@@ -134,10 +134,11 @@ a {
 
 .Page2Box1 {min-width: 40%;
   height: 300px;
-  margin: 5% 25% 5% 25%;
+  margin: 5% 20% 10% 20%;
   padding-left: 5px;
   padding-right: 5px;
   text-align: center;
+  overflow:
 }
 
 .Page2Box2 {
@@ -169,8 +170,7 @@ margin-right: 5%;
 }
 .Page2Video {width:600px;
 height: 400px;
-min-width:200px; 
-min-height:100px;}
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
@@ -284,14 +284,15 @@ min-height:100px;}
 }
 
 .Page6Box2 {min-width: 40%;
-    height: 300px;
+    height: 788px;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
     font-size: 20px;}
 
-.Page6Box3 
+.Page6Box3 {
   height: 600px;
 }
 
@@ -308,7 +309,7 @@ min-height:100px;}
 }
 
 .Page6Box3-2 {float:right;
-margin-right: 100px;
+margin-right: 10%;
 }
 
 <<<<<<< HEAD
