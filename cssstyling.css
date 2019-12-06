@@ -92,6 +92,7 @@ a {
     font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
+
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .firstpage {
@@ -185,8 +186,6 @@ height: 400px;
   margin-right: 8%;
   margin-top: 10%;
   text-align: justify;
-  font-size: 20px;
-  font-weight: bold;  
 }
 .Page4Box2-1 {min-width: 40%;
   height: 200px;
@@ -195,8 +194,6 @@ height: 400px;
   margin-top: 2.5%;
   margin-bottom: 5%;
   text-align: justify;
-  font-size: 20px;
-  font-weight: bold;
   color:white;  
 }
 
@@ -204,8 +201,6 @@ height: 400px;
   min-width:inherit;
   height: 200px;
   text-align:center;
-  font-size: 50px;
-  font-weight: bolder;
   margin-top: 10px;
 }
 
@@ -236,7 +231,6 @@ height: 400px;
   margin-top: 5%;
   margin-left:5%;
   margin-right:5%;
-  font-size: 25px;
   text-align:center;
   }
 
@@ -245,9 +239,7 @@ height: 400px;
   margin-left: 8%;
   margin-right: 8%;
   margin-top: 5%;
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;  
+  text-align: center;  
 }
 
 .Page5Box3 {
@@ -289,7 +281,6 @@ height: 400px;
     margin-top: 5%;
     margin-bottom: 5%;
     text-align: center;
-    font-size: 20px;}
 
 .Page6Box3 {
   height: 600px;
@@ -299,8 +290,6 @@ height: 400px;
   max-width: 800px;
   height: 200px;
   text-align:left;
-  font-size: 18px;
-  font-weight: bolder;
   margin-top: 10px;
   margin-left: 2.5%;
   margin-right: 2.5%;
