@@ -19,6 +19,7 @@ body {background-color:black;
   color: white;
   font-family: Lucida Console;
   /*https://css-tricks.com/snippets/css/fluid-typography/*/
+  /*problem validating this code calc()*/
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
