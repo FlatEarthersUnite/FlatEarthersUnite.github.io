@@ -101,6 +101,9 @@ a {
     color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
+    float: right;
+    margin-top: 25%;
+    margin-right:25%;
 }
 
 #truth {background-color: black;
@@ -109,6 +112,9 @@ a {
     color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
+    float: left;
+    margin-top: 25%;
+    margin-left:25%;
 }
 /*.FirstPage {
 	margin:50px;
@@ -183,9 +189,6 @@ a {
     height: auto;
 }
 
-.Page2Box3 {display: inline;
-  
-}
  .Page2Box3-1 {
   float: left;
   max-width: 40%;
@@ -195,14 +198,15 @@ a {
 }
 
 .Page2Box3-2{float: right;
-  width: 40%;
+  width: 45px;
   height: 600px;
   margin-right: 5%;
 }
-.Page2Video {width:600px;
-  height: 400px;
-  min-width:200px; 
-  min-height:100px;}
+
+.Page2Box3-2 iframe {
+  height: 600px;
+  max-width: 100%;
+}
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
