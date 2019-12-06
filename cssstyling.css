@@ -161,6 +161,11 @@ a {
     margin-bottom: 10px; 
 }
 
+#babyyoda {max-width: 100%;
+    height: auto;
+}
+
+
 .Page2Box2.credits {
     font-family: sans-serif;
     color: white;
@@ -187,8 +192,8 @@ a {
 	position: relative;
 }
 .videowrapper iframe {
-	width: 560;
-	height: 315;
+	width: 800;
+	height: 400;
 	position: absolute;
 	top: 0;
 	left: 0;
