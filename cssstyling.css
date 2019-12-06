@@ -40,7 +40,7 @@ body {background-color: black;
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   text-align: center;
   padding: 14px 16px;
