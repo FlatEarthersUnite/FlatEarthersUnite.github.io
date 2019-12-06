@@ -1,15 +1,9 @@
-    
- /* Date:2019-12-04 */
+/* Date:2019-12-06 */
 /* Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas */
 /* Flat Earthers Unite */
 
-/*body {max-width: inherit; max-height: inherit;
-  background: linear-gradient(to top, #000066 0%, #ffffff 100%);
-font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}*/
-/*"fixed" position in top left corner"*/
 
+/* Background from: https://leaverou.github.io/css3patterns/#starry-night */
 body {background-color:black;
   background-image:
   radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -18,12 +12,13 @@ body {background-color:black;
   radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
   background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  /*Daiva*/
   max-width: inherit;
   max-height: inherit;
   font-family: sans-serif;
   color: white;
-  /*https://css-tricks.com/snippets/css/fluid-typography/*/
   font-family: Lucida Console;
+  /*https://css-tricks.com/snippets/css/fluid-typography/*/
   font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
@@ -35,21 +30,15 @@ body {background-color:black;
   /* responsive image W3schools start*/
   max-width: 100%;
   height: auto;
-  /* W3schools end*/
 }
-/*.center {
-margin: auto;
-width: 60%;
-padding: 10px;
-}
-/*W3schools start [fixed top menu]*/
-/* navigation bar basics BY Abhinay Arora*/ 
+
+/*Abhinay*/ 
 .navbar {
 overflow: hidden;
 width:100%;
 background-color: #333; 
 }
-/* NAVBAR:Abhinay arora */
+
 .navbar a {
 float: left;
 font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
@@ -58,7 +47,7 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
-/* Sticky:Abhinay Arora */
+
 .sticky {
 position: fixed;
 top: 0;
@@ -73,9 +62,8 @@ background-color: grey;
 margin-top: 30px;
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
-/*Formatting - Daiva */
-
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Daiva*/
 
 p {
   font-family: sans-serif;
@@ -107,7 +95,8 @@ max-width: 100%;
 height: auto;
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Daiva*/
 
 .firstpage {
 text-align: center;
@@ -142,9 +131,9 @@ height:auto;
   text-align: center;
 }
 
-/* Framework - Ashley Dcosta */
-/* --------------------------------------------------------------------------------------------------------------------------*/
-/* Page 2&3 - Daiva */
+/* General framework basis for remaining pages - Ashley */
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Page 2 formatted by Daiva */
 
 .Page2Box1 {min-width: 40%;
 height: 300px;
@@ -187,9 +176,9 @@ margin-left: 5%;
  height: 400px;}
  
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
-/*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
-/* Page 3 formatted by Abhinay Arora */
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Page 3 formatted by Abhinay */
+
 .page3Box1 {min-width: 40%;
   height: 80px;
   margin: 5% 20% 10% 20%;
@@ -225,6 +214,10 @@ margin-left: 5%;
   margin-top: 10%;
   margin-right: 12%;
   }
+
+ /* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Page 4 formatted by Ashley */
+
 .Page4Box1 {min-width: inherit;
 height: 600px;
 text-align: center;
@@ -238,6 +231,7 @@ margin-right: 8%;
 margin-top: 10%;
 text-align: justify;
 }
+
 .Page4Box2-1 {min-width: 40%;
 height: 200px;
 margin-left: 8%;
@@ -274,7 +268,8 @@ height: 400px;
 margin-right:5%;
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Page 5 formatted by Ashley */
 
 .Page5Box1 { min-width:200px;
 max-width: inherit;
@@ -314,7 +309,8 @@ height: 400px;
 margin-right:5%;
 }
 
-/* --------------------------------------------------------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Page 6 formatted by Ashley */
 
 .Page6Box1 { min-width:inherit;
 height: 300px;
