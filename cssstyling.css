@@ -1,6 +1,7 @@
 /* Date:2019-12-04 */
 /* Group members: Abhinay Arora, Ashley Dcosta, Daiva Paznekas */
 /* Flat Earthers Unite */
+
 /*body {max-width: inherit; max-height: inherit;
   background: linear-gradient(to top, #000066 0%, #ffffff 100%);
 font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +14,7 @@ body {background-color: black;}
   box-sizing: border-box;
 }
 */
+/*Daiva*/
 .logo {
     position: relative;
     top: 0;
@@ -20,7 +22,6 @@ body {background-color: black;}
     /* responsive image W3schools start*/
     max-width: 100%;
     height: auto;
-    transition: transform .2s ease-out,-webkit-transform .2s ease-out;
     /* W3schools end*/
 }
 /*.center {
@@ -28,6 +29,7 @@ body {background-color: black;}
   width: 60%;
   padding: 10px;
 }
+
 /*W3schools start [fixed top menu]*/
 /* navigation bar basics BY Abhinay Arora*/ 
 .navbar {
@@ -44,11 +46,7 @@ body {background-color: black;}
   padding: 14px 16px;
   text-decoration: none;
 }
-/* Subnavbar for multiple pages by Abhinay Arora */
-/*.subnav {
-  float: left;
-  overflow: hidden;
-}*/
+
 .sticky {
   position: fixed;
   top: 0;
@@ -58,52 +56,14 @@ body {background-color: black;}
 .sticky + .content {
   padding-top: 160px;
 }
-/*.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-*/
+
 .navbar a:hover{
   background-color: grey;
 }
-/*
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: grey;
-  width: 100%;
-  z-index: 1;
-}
 
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
+.main {
+  margin-top: 30px;
 }
-
-.subnav-content a:hover {
-  background-color: grey;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-	display: block;
-}
-*/
-  
-/* main content ?? */
-  .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay ??*/
-  }
-
-/* W3schools start [responsive navbar]*/
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
@@ -156,49 +116,32 @@ body {background-color: black;}
   	margin-right: auto;
 }
 /*W3schools end*/
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+
+p {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+}
+
+/* Framework - Ashley Dcosta */
+/* Page 2&3 - Daiva */
 	
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
-/* W3schools end all */
-/*-- Framework - Ashley Dcosta */
-.Page1h1 { min-width:inherit;
-  background-color: khaki;
+.Page2Box1 {min-width:inherit;
+  height: 400px;
+  margin-top: 0px;
+
+/* --------------------------------------------------------------------------------------------------------------------------*/
+/*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
+
+.Page4Box1 {min-width:inherit;
   height: 400px;
   margin-top: 0px;
   }
 
-#p1b1 {
-  min-width: inherit;
-  background-color:lightcyan;
-  height: 400px;
-}  
-.b1 {min-width: 40%;
-  background-color: lightcoral;
-  float: left;
-  height: 400px;
-  margin-left: 8%;
-  margin-top: 5%;
-
-}
-.b2 {min-width: 40%;
-  background-color: lightblue;
-  float: right;
-  height: 400px;
-  margin-right: 8%;
-  margin-top: 5%;
-}
-.Page1h2 {
-  min-width: inherit;
-  background-color: lavenderblush;
-  height: 600px;
-  text-align: center;
-}  
-/** PAGE 4 BOXES **/
-.Page4Box1 { min-width:inherit;
-  background-color: blue;
-  height: 400px;
-  margin-top: 0px;
-  }
 .Page4Box2 {min-width: 40%;
   height: 400px;
   margin-left: 8%;
@@ -209,24 +152,28 @@ body {background-color: black;}
   font-size: 20px;
   font-weight: bold;  
 }
+
 .Page4Box3 {
   min-width:inherit;
   height: 200px;
   text-align:center;
   font-size: 50px;
   font-weight: bolder;
-  margin-top: 10px;}
+  margin-top: 10px;
+}
+
 .Page4Box4 {
   min-width: inherit;
   height: 600px;
   text-align: center;
 }
+
   .Page4Box4-1 {width: 40%;
   float: left;
   margin-left: 5%;
   text-align: justify;
-
 }
+
 .Page4Box4-2 {float: right;;
   width: 40%;
   text-align: justify;
@@ -234,8 +181,7 @@ body {background-color: black;}
   margin-right:5%;
 }
   
-/*-- End of Framework - Ashley Dcosta */
-
+/* --------------------------------------------------------------------------------------------------------------------------*/
 
 .Page5Box1 { min-width:200px;
   max-width: inherit;
@@ -245,8 +191,8 @@ body {background-color: black;}
   margin-right:5%;
   font-size: 25px;
   text-align:center;
-
   }
+
 .Page5Box2 {min-width: 40%;
   height: 300px;
   margin-left: 8%;
@@ -261,36 +207,34 @@ body {background-color: black;}
   min-width: inherit;
   max-width: inherit;
   height: 600px;
-
 }  
+
 .Page5Box3-1 {min-width:5%;
   max-width: 600px;
     float: left;
     margin-left: 5%;
     text-align: left;
-
 }
+
 .Page5Box3-2 {float: right;
   min-width:100px;
   max-width:600px;
   text-align:left; 
   height: 400px;
   margin-right:5%;
-
 }
 
-
-
+/* --------------------------------------------------------------------------------------------------------------------------*/
 
 .Page6Box1 { min-width:inherit;
-  
   height: 300px;
   margin-top: 5%;
   margin-left:5%;
   margin-right:5%;
   font-size: 20px;
   text-align:left;
-  }
+}
+
 .Page6Box2 {min-width: 40%;
     height: 300px;
     margin-left: 8%;
@@ -298,9 +242,11 @@ body {background-color: black;}
     margin-top: 5%;
     text-align: center;
     font-size: 20px;}
-.Page6Box3{
+
+.Page6Box3 
   height: 600px;
 }
+
 .Page6Box3-1 {min-width:inherit;
   max-width: 800px;
   height: 200px;
@@ -310,11 +256,12 @@ body {background-color: black;}
   margin-top: 10px;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  float: left;}
+  float: left;
+}
 
 .Page6Box3-2 {float:right;
-margin-right: 100px;}
-
+margin-right: 100px;
+}
         
 .Page2Box1{min-width: 40%;
     height: 300px;
@@ -352,19 +299,12 @@ margin-right: 100px;}
   height: 600px;
   text-align: center;
 }
+
 .Page2Box3{
   width: inherit;
 }
-p {
-    font-family: serif;
-    color: white;
-    font-variant: small-caps;
-}
 
-
-/**********************************************
-*** GENERAL
-**********************************************/
+/*GENERAL-------------------------------------------------------------------------------------------------------------------------*/
 :root {
     --position: 0;
 }
