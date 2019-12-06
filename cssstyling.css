@@ -84,14 +84,6 @@ a {
     font-size:2vw;
 }
 
-.credits {
-    font-family: sans-serif;
-    color: white;
-    font-variant: small-caps;
-    font-size: 10px;
-    font-size:1vw;
-}
-
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .FirstPage {
@@ -156,6 +148,14 @@ a {
 }
 
 .Page2Box2 {min-width:inherit;
+}
+
+.Page2Box2.credits {
+    font-family: sans-serif;
+    color: white;
+    font-variant: small-caps;
+    font-size: 10px;
+    font-size:1vw;
 }
 
 /*.Page2Box2 #babyyoda {
