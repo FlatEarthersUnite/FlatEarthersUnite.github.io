@@ -150,7 +150,6 @@ a {
 .Page2Box2 {
     min-width:inherit;
     height: 650px;
-    text-align:center;
     margin: 5% 5% 5% 5%;
 }
 
@@ -162,7 +161,7 @@ a {
   float: left;
   max-width: 40%;
   height: 600px;
-  text-align: center;
+  text-align: left;
   margin-left: 5%;
 }
 
