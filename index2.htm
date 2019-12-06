@@ -109,13 +109,23 @@ body, html {
 }
     
     </style>
+    
    
-    <div id="container">
+    
+<div class="navbar" id = "stickynav">
+  <a href="Index.html">Home</a>
+  <a href="Page2.htm">Search for the Truth</a>
+  <a href="Page3.htm">Learn from the Stars</a>
+  <a href="Page4".htm>Underneath it All</a>
+  <a href="Page5.htm">Explain This</a>
+  <a href="Page6.htm">Get Involved</a>
+  <div id="container">
         <div class="center">
           <h1 class="el-st">i.e.FlatEarthersUnite</h1>
           <!-- <span class="scroll">Scroll to shuffle</span> -->
         </div>
       </div>
+</div>    
 <script>
     var stringRandom = (function() {
 
@@ -254,9 +264,16 @@ return {
 })();
 
 stringRandom.init('.el-st');
-
-
-
+window.onscroll = function() {StickyFunction()};
+  var navbar = document.getElementById("stickynav");
+  var stickyoffset = navbar.offsetTop;
+  function StickyFunction() {
+    if (window.pageYOffset >= stickyoffset) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }    
 Resources
 </script>    
 </body>
