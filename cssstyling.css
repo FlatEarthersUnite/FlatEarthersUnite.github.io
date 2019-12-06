@@ -174,12 +174,16 @@ a {
     min-width:inherit;
     height: 650px;
     margin: 5% 5% 5% 5%;
+    text-align: center;
 }
 
-.Page2Box2 #babyyoda {max-width: 100%;
+#babyyoda {max-width: 100%;
     height: auto;
 }
 
+.Page2Box3 {display: inline;
+  
+}
  .Page2Box3-1 {
   float: left;
   max-width: 40%;
@@ -189,15 +193,14 @@ a {
 }
 
 .Page2Box3-2{float: right;
-  width: 45px;
+  width: 40%;
   height: 600px;
   margin-right: 5%;
 }
-
-.Page2Box3-2.iframe {
-  height: 600px;
-  max-width: 100%;
-}
+.Page2Box3-2 iframe{width:600px;
+  height: 400px;
+  min-width:200px; 
+  min-height:100px;}
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
