@@ -86,12 +86,19 @@ a {
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
 .firstpage {
-	max-wdith: 60%;
 	text-align: center;
-	margin-left:25%;
 }
 	
+#earths {
+	max-width:100%;
+	height:auto;
+}
 
+#liesbutton {background-color: black;
+}
+
+#truthbutton {background-color: black;
+}
 /*.FirstPage {
 	margin:50px;
 	width: auto;
