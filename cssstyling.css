@@ -204,7 +204,7 @@ height: 400px;
 }
 .Page3Box3-1 {
   float: left;
-  max-width: 40%;
+  width: 40%;
   height: 600px;
   text-align: left;
   margin-left: 5%;
