@@ -82,19 +82,20 @@ a {
     font-size:10vw;
 }
 
-h3 {
-    font-family: sans-serif;
-    color: white;
-    font-variant: small-caps;
-    font-size:20vw;
-}
-
 .credits {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
     font-size:5vw;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px;
+    display: table;
+    margin: 0 auto;
+} 
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 
@@ -153,10 +154,13 @@ h3 {
 /* Page 2&3 - Daiva */
 
 .Page2Box1 {min-width:inherit;
-  height: 400px;
+  height: 300px;
   margin-top: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.Page2Box2 {min-width:inherit;
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
