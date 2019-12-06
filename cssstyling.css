@@ -8,12 +8,12 @@ font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }*/
 /*"fixed" position in top left corner"*/
-body {background-color: black;}
 
-/*{
-  box-sizing: border-box;
+body {background-color: black;
+    max-width: inherit;
+    max-height: inherit;
 }
-*/
+
 /*Daiva*/
 .logo {
     position: relative;
@@ -72,6 +72,7 @@ p {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
+    font-size: 16px;
     font-size:2vw;
 }
 
@@ -79,6 +80,7 @@ a {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
+    font-size: 16px;
     font-size:2vw;
 }
 
@@ -86,6 +88,7 @@ a {
     font-family: sans-serif;
     color: white;
     font-variant: small-caps;
+    font-size: 10px;
     font-size:1vw;
 }
 
@@ -155,13 +158,13 @@ a {
 .Page2Box2 {min-width:inherit;
 }
 
-.Page2Box2 #babyyoda {
+/*.Page2Box2 #babyyoda {
     max-width: 100%;
     height: auto;
     max-height: 500px;
     display: table;
     margin: 0 auto;
-} 
+}*/
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
 /*Page 4, 5 & 6 - Ashley - formatted by Daiva for overall website consistency */
