@@ -16,7 +16,7 @@ body {background-color: black;
     color: white;
     /*https://css-tricks.com/snippets/css/fluid-typography/*/
     font-family: Lucida Console;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /*Daiva*/
@@ -45,7 +45,7 @@ body {background-color: black;
 
 .navbar a {
   float: left;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -77,9 +77,8 @@ body {background-color: black;
 p {
     font-family: sans-serif;
     color: white;
-    /*https://css-tricks.com/snippets/css/fluid-typography/*/
     font-family: Lucida Console;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .space {
@@ -90,7 +89,7 @@ a {
     font-family: sans-serif;
     color: white;
     font-family: Lucida Console;
-    font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 /* --------------------------------------------------------------------------------------------------------------------------*/
