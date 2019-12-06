@@ -87,6 +87,7 @@ a {
 
 .firstpage {
 	text-align: center;
+	margin-top: 10%;
 }
 	
 #earths {
@@ -94,10 +95,10 @@ a {
 	height:auto;
 }
 
-#liesbutton {background-color: black;
+#lies {background-color: black;
 }
 
-#truthbutton {background-color: black;
+#truth {background-color: black;
 }
 /*.FirstPage {
 	margin:50px;
