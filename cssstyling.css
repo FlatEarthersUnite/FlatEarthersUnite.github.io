@@ -101,11 +101,9 @@ a {
     color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
-    float: right;
-    margin-top: 15%;
-    margin-right:25%;
-    width: 20px;
-    height: 10px;
+    position: relative;
+    width: 50px;
+    height: 20px;
     text-align: center;
 }
 
@@ -115,11 +113,9 @@ a {
     color: black;
     font-variant: small-caps;
     margin-bottom: 50px;
-    float: left;
-    margin-top: 15%;
-    margin-left:25%;
-    width: 20px;
-    height: 10px;
+    position: relative;
+    width: 50px;
+    height: 20px;
     text-align: center;
 }
 /*.FirstPage {
